@@ -1,18 +1,29 @@
-## Getting Started
+## Data Structure and Algorithm Analysis
+### Quiz #02
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Create a Java program that performs the following tasks using Bubble Sort and Selection
+Sort:
+1. Input the Power Levels
+   - Ask the user to enter the power levels of 10 creatures.
+   - Store these values in an integer array.
+2. Bubble Sort Implementation
+   - Sort the power levels in ascending order using the Bubble Sort algorithm.
+   - Display the sorted list.
+3. Selection Sort Implementation
+   - Sort the power levels in descending order using the Selection Sort algorithm.
+   - Display the sorted list.
+4. Calculate and Display Analysis:
+   - Sum of Even Numbers: Calculate and display the sum of even power levels.
+   - Sum of Odd Numbers: Calculate and display the sum of odd power levels.
+   - Min and Max Power Levels: Display the minimum and maximum power levels from the array.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Requirements:
+ - Accepts exactly 10 integer inputs representing the power levels of creatures.
+ - Implements Bubble Sort correctly to sort the array in ascending order.
+ - Implements Selection Sort correctly to sort the array in descending order.
+ - Displays the sorted lists.
+ - Correctly calculates and displays the sum of even numbers from the array.
+ - Correctly calculates and displays the sum of odd numbers from the array.
+ - Identifies and displays the minimum power level.
+ - Identifies and displays the maximum power level.
+ - Add comments to explain your code.
